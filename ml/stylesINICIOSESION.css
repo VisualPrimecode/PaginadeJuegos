@@ -1,3 +1,11 @@
+header {
+	background-image: url(logo.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+	position: relative;
+	z-index: 999;
+}
 /* Estilos para el body */
 body {
     background-color: #f7f7f7;
