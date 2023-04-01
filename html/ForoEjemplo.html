@@ -7,8 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.72.0">
-    <title >El bar de Mou</title>
-    
+    <title>Blog Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/blog/">
 
 
 
@@ -45,13 +46,7 @@
     <!-- Custom styles for this template -->
     <style>
         /* stylelint-disable selector-list-comma-newline-after */
-        body{
-            background-image: url('../imagenes/fondoHOME.jpg');
-            
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        } 
+
         .blog-header {
             line-height: 1;
             border-bottom: 1px solid #e5e5e5;
@@ -177,10 +172,10 @@
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
                 <div class="col-4 pt-1">
-                    
+                    <a class="link-secondary" href="#">Subscribe</a>
                 </div>
                 <div class="col-4 text-center">
-                    <a class="blog-header-logo" href="#" style="color: white;">El Bar de Mou</a>
+                    <a class="blog-header-logo text-dark" href="#">Large</a>
                 </div>
                 <div class="col-4 d-flex justify-content-end align-items-center">
                     <a class="link-secondary" href="#" aria-label="Search">
@@ -192,75 +187,32 @@
                             <path d="M21 21l-5.2-5.2" />
                         </svg>
                     </a>
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Ingresar</a>
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Registrarse</a>
-                    
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
                 </div>
             </div>
         </header>
 
         <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-between">
-                <a class="p-2 link-secondary" href="#">Home</a>
-                <a class="p-2 link-secondary" href="#">Foros</a>
-               
+                <a class="p-2 link-secondary" href="#">World</a>
+                <a class="p-2 link-secondary" href="#">U.S.</a>
                 
             </nav>
         </div>
 
-        <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-            <div class="col-md-6 px-0">
-                <h1 class="display-4 font-italic">Niño de tres años muere tras caer de un piso 14 en Independencia.</h1>
-                <p class="lead my-3">Niño de tres años muere tras caer de un piso 14 en Independencia Alrededor de las 20.00 horas de este martes, en  la comuna de Independencia, un menor de edad de tres años falleció tras caer de un edificio en la comuna de Independencia, en Santiago...</p>
-                <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continua leyendo...</a></p>
-            </div>
-        </div>
-        <div>
-            <p style="font-size: 30px;color: white;">Tendencias</p>
-        </div>
-        <div class="row mb-2">
-            <div class="col-md-6">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">Mundo</strong>
-                        <h3 class="mb-0"; style="color:white">Baja el dolar</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto"style="color:white">El dólar regresó a la órbita de los $ 800 este viernes dejando tras de sí la segunda mayor
-                             caída semanal del año, ya que las positivas cifras de actividad en China y en Chile terminaron poniendo.... </p>
-                        <a href="#" class="stretched-link">Continua leyendo</a>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success">Conspiraciones</strong>
-                        <h3 class="mb-0"style="color:white">porque la tierra es plana?</h3>
-                        <div class="mb-1 text-muted">Nov 11</div>
-                        <p class="mb-auto"style="color:white">se han dado cuenta que a pesar de que los disque expertos dicen que la tierra es plana cuando uno mira a los lejos no se ve la curvatura,
-                        ayer me subi al costanera center para comprobar mi...</p>
-                        <a href="#" class="stretched-link">Continua leyendo</a>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
+        
     </div>
 
     <main class="container">
         <div class="row">
             <div class="col-md-8">
-                <h3 class="pb-4 mb-4 font-italic border-bottom"; style="color: white">
-                    Foros mas recientes
+                <h3 class="pb-4 mb-4 font-italic border-bottom">
+                    From the Firehose
                 </h3>
 
-                <div class="blog-post" style="color: white;">
-                    <h2 class="blog-post-title">ejemplo foro</h2>
-                    <h3>Conspiraciones</h3>
-                    <p class="blog-post-meta">febrero 1, 2023 by <a href="#">Mark</a></p>
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Sample blog post</h2>
+                    <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
 
                     <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap.
                         Basic typography, images, and code are all supported.</p>
@@ -274,65 +226,61 @@
                     </blockquote>
                     <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
                         fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    <h2>Heading</h2>
-                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non
-                        commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus,
-                        porta ac consectetur ac, vestibulum at eros.</p>
-                    <h3>Sub-heading</h3>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    <pre><code>Example code block</code></pre>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-                    
-                    
-                    <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+
+                        <h2>Comentarios</h2>
+                        
+                        
+                        <form action="/action_page.php">
+                        
+                          <input type="text" id="fname" name="fname"><br>
+                          <input type="submit" value="Submit">
+                        </form>
                 </div><!-- /.blog-post -->
 
-                <div class="blog-post"style="color:white">
-                    <h2 class="blog-post-title">2do ejemplo foro</h2>
-                    <h3>Deportes</h3>
-                    <p class="blog-post-meta">Diciembre 23, 2022 by <a href="#">Jacob</a></p>
+                <!-- /.blog-post -->
 
-                    <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus
-                        mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere
-                        consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                    <blockquote>
-                        <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong>
-                            ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </blockquote>
-                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
-                        fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non
-                        commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus,
-                        porta ac consectetur ac, vestibulum at eros.</p>
-                </div><!-- /.blog-post -->
-
-                
+                <!-- /.blog-post -->
 
                 <nav class="blog-pagination">
-                    <a class="btn btn-outline-primary" href="#">Actualizar</a>
-                    <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Mas posts</a>
+                    <a class="btn btn-outline-primary" href="#">Older</a>
+                    <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
                 </nav>
 
             </div>
 
             <aside class="col-md-4">
                 <div class="p-4 mb-3 bg-light rounded">
-                    <h4 class="font-italic">Acerca de nosotros</h4>
-                    <p class="mb-0"><em>Somos una empresa que se especializa en soluciones informaticas desde el 2013, si necesitas nuestro servicios puedos contactarnos en el siguiente correo ejemplo@live.cl</p>
+                    <h4 class="font-italic">About</h4>
+                    <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur
+                        purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                 </div>
 
                 <div class="p-4">
-                    <h4 class="font-italic" style="color:white">Archivos</h4>
+                    <h4 class="font-italic">Archives</h4>
                     <ol class="list-unstyled mb-0">
-                        <li><a href="#">marzo 2023</a></li>
-                        <li><a href="#">Febrero 2023</a></li>
-                        <li><a href="#">enero 2023</a></li>
-                       
+                        <li><a href="#">March 2014</a></li>
+                        <li><a href="#">February 2014</a></li>
+                        <li><a href="#">January 2014</a></li>
+                        <li><a href="#">December 2013</a></li>
+                        <li><a href="#">November 2013</a></li>
+                        <li><a href="#">October 2013</a></li>
+                        <li><a href="#">September 2013</a></li>
+                        <li><a href="#">August 2013</a></li>
+                        <li><a href="#">July 2013</a></li>
+                        <li><a href="#">June 2013</a></li>
+                        <li><a href="#">May 2013</a></li>
+                        <li><a href="#">April 2013</a></li>
                     </ol>
                 </div>
 
-                
+                <div class="p-4">
+                    <h4 class="font-italic">Elsewhere</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ol>
+                </div>
             </aside>
 
         </div><!-- /.row -->
@@ -340,6 +288,8 @@
     </main><!-- /.container -->
 
     <footer class="blog-footer">
+        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
+                href="https://twitter.com/mdo">@mdo</a>.</p>
         <p>
             <a href="#">Back to top</a>
         </p>
